@@ -1,0 +1,73 @@
+@media (max-width: 320px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        padding: 15px;
+        gap: 15px; /* Reduz o espaçamento entre seções */
+        margin: 20px auto;
+        max-width: 100%; /* Ajusta para caber na tela */
+        box-shadow: none; /* Remove sombras excessivas para foco no conteúdo */
+    }
+
+    .custom-img {
+        width: 100%;
+        height: auto; /* Mantém proporção */
+        margin-bottom: 15px;
+        border-radius: 10px; /* Suaviza o design */
+    }
+
+    h1 {
+        font-size: 1.4rem; /* Reduz tamanho do título */
+        text-align: center; /* Centraliza em telas pequenas */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Reduz tamanho dos subtítulos */
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .container-first,
+    .container-pt,
+    .container-ingre,
+    .container-inst,
+    .container-nutri {
+        padding: 10px; /* Reduz espaçamento interno */
+        text-align: left; /* Alinha texto à esquerda */
+    }
+
+    ul, ol {
+        padding-left: 15px; /* Reduz indentação */
+        margin-bottom: 15px;
+    }
+
+    ul li, ol li {
+        font-size: 0.875rem; /* Reduz tamanho da fonte */
+        margin-bottom: 8px;
+    }
+
+    .table-nutri {
+        font-size: 0.875rem; /* Reduz tamanho da fonte na tabela */
+    }
+
+    th, td {
+        padding: 8px; /* Reduz espaçamento nas células */
+    }
+
+    .attribution {
+        font-size: 0.75rem; /* Reduz fonte do rodapé */
+        margin-top: 15px;
+    }
+
+    .link {
+        font-size: 0.875rem;
+        color: #854530; /* Cor consistente para links */
+    }
+
+    a:focus {
+        outline: 1px solid #b00050; /* Ajusta o foco para não ficar agressivo */
+        outline-offset: 1px;
+    }
+}

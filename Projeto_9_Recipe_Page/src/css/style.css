@@ -1,0 +1,155 @@
+body {
+    background-color: #f3e5d8;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #854530;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.container-first {
+    padding: 10px;
+    text-align: left;
+}
+
+.container-pt {
+    background-color: #fff7fc;
+    border: 2px solid #fff7fc;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.container-pt h2 {
+    margin-top: 20px;
+    color: #844b64;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+.container-ingre {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.container-inst {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.container-nutri {
+    padding: 10px;
+    text-align: left;
+}
+
+ul,
+ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-indent: 15px;
+}
+
+ul li,
+ol li {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+ol li strong,
+ul li strong {
+    color: #5a554f;
+}
+
+ul li::marker,
+ol li::marker {
+    color: #854530;
+    font-weight: bold;
+}
+
+.table-nutri {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: normal;
+}
+
+td {
+    color: #854530;
+    font-weight: bold;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:focus {
+    outline: 2px solid #b00050;
+    outline-offset: 2px;
+}
