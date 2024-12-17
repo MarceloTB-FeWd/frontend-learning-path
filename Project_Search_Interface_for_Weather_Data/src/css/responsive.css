@@ -1,0 +1,67 @@
+/* 1 */
+@media (max-width: 650px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    /* 2 */
+    .info-principal .temperatura {
+        font-size: 48px;
+    }
+
+    /* 3 */
+    .info-principal h1 {
+        font-size: 16px;
+    }
+
+    /* 4 */
+    .busca input,
+    .busca .btn-busca {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+/* 5 */
+@media (max-width: 400px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    /* 6 */
+    .info-principal .temperatura {
+        font-size: 36px;
+    }
+
+    /* 7 */
+    .info-principal h1 {
+        font-size: 14px;
+    }
+
+    /* 8 */
+    .busca {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* 9 */
+    .busca input,
+    .busca .btn-busca {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    /* 10 */
+    .info-secundaria {
+        padding: 15px 20px;
+    }
+
+/* 11 */
+    .info-secundaria .umidade,
+    .info-secundaria .velocidade-do-vento {
+        padding: 8px 0;
+    }
+}

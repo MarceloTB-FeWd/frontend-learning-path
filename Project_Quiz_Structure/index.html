@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição do Site">
+    <title>Nome da página, irá aparecer no navegador!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<!-- 1 -->
+
+<body>
+
+    <!-- 2 -->
+    <header>
+        <h1>Título Principal da página!</h1>
+        <p>Descrição do título principal, vem logo abaixo!</p>
+    </header>
+
+    <!-- 3 -->
+    <main class="container-flex">
+        <!-- 4 -->
+        <section class="container-flex">
+            <h2>Subtítulo Principal, título da sessão!</h2>
+            <p><strong>Descrição do subtítulo principal</strong>, relacionado ao <em>título da sessão!</em></p>
+            <p>Outra descrição, faz relação assim como a primeira!</p>
+            <p>Outra descrição, faz relação assim como a primeira e a segunda. <br>Aqui caso tenha alguma <abbr
+                    title="sigla">sigla</abbr> utilizar uma tag específica!</p>
+        </section>
+
+        <!-- 5 -->
+        <section class="container-flex">
+            <h2>Subtítulo Principal, título da sessão! Aqui será a pergunta n°1, <br>abaixo as opções de escolha para a
+                resposta!(pode escolher só uma opção)</h2>
+
+            <!-- 6 -->
+            <form>
+                <input type="radio" value="alternativa1" id="a1a" name="pergunta1">
+                <label for="a1a">Opação 1</label><br>
+                <input type="radio" value="alternativa2" id="a1b" name="pergunta1">
+                <label for="a1b">Opação 2</label><br>
+                <input type="radio" value="alternativa3" id="a1c" name="pergunta1">
+                <label for="a1c">Opação 3</label><br>
+                <input type="radio" value="alternativa4" id="a1d" name="pergunta1">
+                <label for="a1d">Opação 4</label><br>
+            </form>
+        </section>
+
+        <!-- 7 -->
+        <section class="container-flex">
+            <h2>Subtítulo Principal, título da sessão! Aqui será a pergunta n°2, <br>abaixo o campo para digitar
+                para a resposta!</h2>
+
+            <!-- 8 -->
+            <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta">
+            </form>
+        </section>
+
+        <!-- 9 -->
+        <section class="container-flex">
+            <h2>Subtítulo Principal, título da sessão! Aqui será a pergunta n°3, <br>abaixo o campo para digitar
+                para a resposta!</h2>
+
+            <!-- 10 -->
+            <form>
+                <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha">
+            </form>
+        </section>
+
+        <!-- 11 -->
+        <section class="container-flex">
+            <h2>Subtítulo Principal, título da sessão! Aqui será a pergunta n°4, <br>abaixo o campo para digitar
+                para a resposta!</h2>
+
+            <!-- 12 -->
+            <form>
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+        </section>
+
+        <!-- 13 -->
+        <section class="container-flex">
+            <h2>Subtítulo Principal, título da sessão! Aqui será a pergunta n°5, <br>abaixo as opções de escolha para a
+                resposta!(pode escolher mais de uma opção).</h2>
+
+            <!-- 14-->
+            <form>
+                <input type="checkbox" value="opcao1" id="op1" name="pergunta5">
+                <label for="op1">Opção 1</label><br>
+                <input type="checkbox" value="opcao2" id="op2" name="pergunta5">
+                <label for="op2">Opção 2</label><br>
+                <input type="checkbox" value="opcao3" id="op3" name="pergunta5">
+                <label for="op3">Opção 3</label><br>
+                <input type="checkbox" value="opcao4" id="op4" name="pergunta5">
+                <label for="op4">Opção 4</label><br>
+            </form>
+        </section>
+
+        <!-- 15 -->
+        <section class="container-flex">
+            <h2>Subtítulo Principal, título da sessão! Aqui será a pergunta n°6, <br>abaixo o campo para digitar
+                para a resposta!</h2>
+
+            <!-- 16 -->
+            <form>
+                <input type="file" id="p6" name="pergunta6">
+            </form>
+        </section>
+
+        <!-- 17 -->
+        <section class="container-flex">
+            <h2>
+                Subtítulo Principal, título da sessão! Aqui será a pergunta n°7, <br>abaixo as opções de escolha para a
+                resposta!(pode escolher apenas uma opção).
+            </h2>
+
+            <!-- 18 -->
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="opc1">opc1</option>
+                    <option value="opc2">opc2</option>
+                    <option value="opc3">opc3</option>
+                    <option value="opc4">opc4</option>
+                </select>
+            </form>
+        </section>
+
+        <!-- 19 -->
+        <section class="container-flex">
+            <h2>
+                Subtítulo Principal, título da sessão! Aqui será a pergunta n°8, <br>abaixo as opções de escolha para a
+                resposta!(irá escolher de acordo com a imagem. Aqui terá imagem inserida).
+            </h2>
+
+            <!-- 20 -->
+            <figure>
+                <img src="./src/assets/imagens/img_test_n_tem_nada.png" alt="Teste">
+                <figcaption>É a legenda da imagem utilizada</figcaption>
+            </figure>
+            <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta">
+        </section>
+
+        <!-- 21 -->
+        <section class="container-flex">
+            <h2>
+                Aqui será o título da tabela de pontução referente as oito perguntas anteriores!
+            </h2>
+            <!-- 22 -->
+            <table border="1">
+
+                <!-- 23 -->
+                <thead>
+                    <tr>
+                        <th>Campo referente ao título da coluna (por exemplo, Pontuação).</th>
+                        <th>Campo refente ao título da coluna (por exemplo, Descrição).</th>
+                    </tr>
+                </thead>
+
+                <!-- 24 -->
+                <tbody>
+                    <tr>
+                        <td>Número referente a pontuação obtida(por exemplo, de 0-10pts - 0-2)!</td>
+                        <td>Aqui pode ser uma frase explicativa sobre o intervalo referente a pontuação obtida.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Número referente a pontuação obtida(por exemplo, de 0-10pts - 3-4)!</td>
+                        <td>Aqui pode ser uma frase explicativa sobre o intervalo referente a pontuação obtida.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Número referente a pontuação obtida(por exemplo, de 0-10pts - 5-6)!</td>
+                        <td>Aqui pode ser uma frase explicativa sobre o intervalo referente a pontuação obtida.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Número referente a pontuação obtida(por exemplo, de 0-10pts - 7-8)!</td>
+                        <td>Aqui pode ser uma frase explicativa sobre o intervalo referente a pontuação obtida.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Número referente a pontuação obtida(por exemplo, de 0-10pts - 9-10)!</td>
+                        <td>Aqui pode ser uma frase explicativa sobre o intervalo referente a pontuação obtida.</td>
+                    </tr>
+
+                </tbody>
+
+                <!-- 25 -->
+                <tfoot>
+                    <tr>
+                        <td colspan="2">
+                            Aqui será a frase referente ao rodapé da tabela! Para abranjer todas as colunas (aqui no
+                            caso são 2 apenas), utilizar o atributo "colspan". Dentro da tag "td".
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- 26 -->
+        <section class="container-flex">
+            <h2>
+                Aqui será o título da lista de respostas referente as oito perguntas anteriores!
+            </h2>
+
+            <!-- 27 -->
+            <details>
+                <summary>Aqui pode colocar, por exemplo, "Clique aqui para ver as respostas"</summary>
+                <ol>
+                    <li>Referente a resposta da primeira pergunta;</li>
+                    <li>Referente a resposta da segunda pergunta;</li>
+                    <li>Referente a resposta da terceira pergunta (sendo um exemplo de senha "forte");</li>
+                    <li>Referente a resposta da qurta pergunta;</li>
+                    <li>Referente a resposta da quinta pergunta (é possível escolher mais de uma opção);</li>
+                    <li>Referente a resposta da sexta pergunta (por exemplo, o arquivo deve ter a extansão baseada de
+                        acordo com a pergunta);</li>
+                    <li>Referente a resposta da sétima pergunta;</li>
+                    <li>Referente a resposta da oitava pergunta.</li>
+                </ol>
+            </details>
+        </section>
+
+        <!-- 28 -->
+        <section class="container-flex">
+            <h2>Aqui será o título referente ao formulário, por exemplo, "Nos ajude com um feedback"!</h2>
+
+            <!-- 29-->
+            <form>
+                <fieldset>
+                    <legend>Aqui serve para colocar uma legenda do formulário, caso seja necessário. Por exemplo,
+                        "Informações de Contato".</legend>
+                    <label for="name">Por exemplo, "Nome:"</label>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="email">Por exemplo, "Email:"</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comentarios">Por exemplo, "Comentário:"</label><br>
+                    <textarea name="comentarios" id="comentarios" rows="4" cols="50"
+                        placeholder="Digite seus comentários aqui"></textarea><br>
+                    <button onclick="alert('Por exemplo, Feedback Enviado')">É o botão para o usuário interagir. Por
+                        exemplo,"Envie o feedback".</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- 30-->
+    <footer>
+        <p class="paragrafo-footer">
+            &copy; Aqui pode ser colocado os contatos dos desenvolvedores da página, termos de direitos e licensas, etc.
+            Através do: "&copy" o HTML5 entende que é o símbolo para representar a escrita.
+        </p>
+        <p class="paragrafo-footer">
+            Aqui será utilizado links para o usuário clicar e ser redirecionado. Por exemplo, <a
+                href="https://google.com" target="_blank">"Clique aqui"</a>.
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- Para utilizar os componentes do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+    <!--Padrão dos caracteres-->
+    <meta charset="UTF-8" />
+
+    <!--Compatível com celulares e computadores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cloneflix</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet" />
+
+</head>
+
+<!--Corpo do site-->
+<body>
+
+    <!--Lista de itens desordenados-->
+    <ul>
+
+        <!--Itens da lista-->
+        <li>
+            <img src="./src/assets/imagens/Fakeflix_logo_redm.png" class="img-intro" alt="Logo">
+        </li>
+        <li>
+            <img src="./src/assets/imagens/Avatar_redm.png" class="img-intro" alt="Avatar">
+        </li>
+        </li>
+    </ul>
+
+    <!--Funciona como uma caixa para organizar-->
+    <div class="capa">
+        <h1 class="capa-titulo">Stranger Things</h1>
+        <p class="capa-descricao">Nos anos 80, o desaparecimento de um garoto revela segredos sombrios em uma pequena
+            cidade. Seus amigos, ao investigarem, encontram uma garota com poderes estranhos e descobrem uma realidade
+            paralela repleta de perigos e criaturas assustadoras. Unidos pela amizade, precisam enfrentar forças ocultas
+            para salvar seu amigo e proteger sua cidade.</p>
+
+        <!--Link para acesso-->
+        <a class="link-assistir">Assistir</a>
+        <a class="link-info">Mais Informações</a>
+    </div>
+
+    <!--Diretório do vídeo, para rodar automático e sem som, pois no chrome não é permitido que vídeos carreguem e rodem com som, por isso o "muted". E com o loop fica rodando sem parar-->
+    <video src="./src/assets/video/stranger-things.mp4" autoplay muted loop class="video"></video>
+
+    <!--Ser usado pelo JS-->
+    <button class="botao-som">🔊</button>
+
+    <!--Comando de ação pronto do Bootstrap-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+        <h2 class="titulo-carousel">Catálogo de Filmes e Séries</h2>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./src/assets/imagens/abyss.jpg" class="img-carousel" alt="Abyss">
+                <img src="./src/assets/imagens/equalizer.jpg" class="img-carousel" alt="Equalizer">
+                <img src="./src/assets/imagens/chokehold_redm.jpg" class="img-carousel" alt="Chokehold">
+                <img src="./src/assets/imagens/hunter.jpg" class="img-carousel" alt="Hunter">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./src/assets/imagens/f1_redm.jpg" class="img-carousel" alt="F1">
+                <img src="./src/assets/imagens/jaula.jpg" class="img-carousel" alt="Jaula">
+                <img src="./src/assets/imagens/lift.jpg" class="img-carousel" alt="Lift">
+                <img src="./src/assets/imagens/moonfall_redm.jpg" class="img-carousel" alt="Moonfall">
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <div class="modal">
+        <div class="modal-conteudo">
+            <h2>Stranger Things</h2>
+            <p>A trama envolve elementos sobrenaturais, mistérios paranormais e referências nostálgicas à cultura pop
+                dos anos 80.</p>
+
+            <span class="classif">16</span>
+            <span class="classif">Sci-fi</span>
+            <span class="classif">Suspense</span>
+            <span class="classif">Terror</span>
+            <span class="classif">Drama</span>
+            <span class="classif">2016</span>
+
+        </div>
+    </div>
+
+    <!--Para utilizar os componentes do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>

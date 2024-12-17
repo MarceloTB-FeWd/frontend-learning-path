@@ -1,0 +1,25 @@
+Esse "index.js" não teve o intuito de trabalhar com requisições via API,
+portanto utilizou-se um valar de câmbio fixo (só como forma experimental).
+
+Objetivos:
+
+1 - Desenvolver: Eventos para identificar quando houve o toque no teclado;
+  - Desenvolver: Evento que quando clicar fora do campo, deixa o campo formatado.
+
+2 - Definir o valor padrão de preenchimento do campo com a string e converter de dólar para real.
+
+3 - Desenvolver Funções para:
+
+    - Ajustar o valor, trocar a vírgula do número pelo ponto;
+    - Utilizar a função de formatar com a biblioteca de internacionalização do JS;
+    - Retornar o valor formatado.
+
+    - Substituir a "," pelo ".";
+    - Transforma o texto em número;
+    - Realiza uma verificação de segurança, caso alguém digitar algo errado, 
+      o sistema continua funcionando.
+
+    - Converter o valor de dólar para real;
+    - Mostrar no campo referente ao real;
+    - Converter o valor de real para dólar;
+    - Mostrar no campo referente ao dólar.

@@ -1,0 +1,243 @@
+body {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    color: #00FF00;
+    padding-top: 60px;
+    padding-bottom: 130px;
+    background-image: repeating-linear-gradient(45deg,
+            #1a1a1a,
+            #1a1a1a 10px,
+            #2a2a2a 10px,
+            #2a2a2a 20px);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #111;
+    box-shadow: 0 2px 5px rgba(0, 255, 0, 0.5);
+    opacity: 0.8;
+    z-index: 1000;
+}
+
+.titulopag {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    text-shadow:
+        0 0 5px #00FF00,
+        0 0 10px #00FF00,
+        0 0 20px #00FF00;
+    transition: all 0.3s ease;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    color: #00FF00;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff0000;
+    background-color: #00FF00;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    top: 25px;
+    transform: translate(-50%);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    width: 300px;
+    padding: 15px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #000000;
+    margin: 10% auto;
+    padding: 20px 20px;
+    border: 2px solid #00FF00;
+    width: 80%;
+    max-width: 500px;
+    color: #ffffff;
+    box-shadow: 0 0 10px #00FF00;
+    border-radius: 5px;
+    text-shadow:
+        0 0 5px #00FF00,
+        0 0 10px #00FF00;
+    transition: all 0.3s ease;
+}
+
+.close {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    color: #00FF00;
+    float: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 130px;
+    min-height: calc(100vh - 190px);
+}
+
+.animation-container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 2px solid #00FF00;
+    overflow: hidden;
+    background-color: #000;
+    box-shadow: 0 0 10px #00FF00;
+}
+
+.ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ff5733;
+    border-radius: 50%;
+}
+
+.rodape {
+    background-color: #111;
+    opacity: 0.8;
+    padding: 5px;
+    color: #00FF00;
+    border-top: 2px solid #00FF00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 10px #00FF00;
+    text-shadow:
+        0 0 5px #00FF00,
+        0 0 10px #00FF00,
+        0 0 20px #00FF00;
+    transition: all 0.3s ease;
+}
+
+.paragrafo {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contact-item i {
+    color: #00FF00;
+    font-size: 1.5em;
+    margin-right: 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.rodape .links {
+    color: #00FF00;
+    text-decoration: none;
+    margin: 3px 0;
+    transition: color 0.3s, transform 0.3s;
+    font-size: 1em;
+}
+
+.rodape-links:hover {
+    color: #ff0000;
+    transform: scale(1.2);
+}
+
+.rodape .icon {
+    margin-top: 5px;
+}
+
+.rodape .icon i {
+    color: #00FF00;
+    font-size: 1.5em;
+    margin: 0 5px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.rodape .icon i:hover {
+    color: #FF0000;
+    transform: scale(1.2);
+}
+
+.paragraforodape {
+    color: #ffffff;
+    font-size: 0.6em;
+    margin-top: 8px;
+}

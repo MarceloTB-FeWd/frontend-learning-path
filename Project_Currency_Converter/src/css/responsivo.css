@@ -1,0 +1,10 @@
+/* Estilo para manter a responsividade básica */
+@media (max-width: 750px) {
+    main {
+        width: 90%;
+    }
+
+    header img {
+        height: 60px;
+    }
+}

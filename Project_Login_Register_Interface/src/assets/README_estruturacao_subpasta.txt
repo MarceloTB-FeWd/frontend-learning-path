@@ -1,0 +1,1 @@
+Para estruturação da Subpasta: "assets"

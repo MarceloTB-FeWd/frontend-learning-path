@@ -1,0 +1,85 @@
+/* Estilos para dispositivos com largura máxima de 750px */
+@media (max-width: 750px) {
+
+    body {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 5px 0;
+        position: relative;
+    }
+
+    .img-intro {
+        height: 25px; /* Reduz o tamanho da imagem introdutória */
+    }
+
+    video {
+        width: 100%; /* Ocupa toda a largura disponível */
+        height: auto; /* Mantém a proporção */
+    }
+
+    .capa {
+        position: relative;
+        width: 90%; /* Aumenta a responsividade */
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .capa-titulo {
+        font-size: 40px; /* Reduz o tamanho do título */
+        text-align: center;
+    }
+
+    .capa-descricao {
+        font-size: 14px; /* Ajuste do texto da descrição */
+        text-align: center;
+        padding: 25px;
+    }
+
+    .link-assistir, .link-info {
+        width: 100%; /* Os botões ocupam toda a largura */
+        margin-bottom: 10px; /* Espaço entre botões */
+        text-align: center;
+    }
+
+    .img-carousel {
+        height: 100px; /* Reduz a altura das imagens do carrossel */
+    }
+
+    #carouselExampleControls {
+        background-color: transparent;
+        position: fixed; /* Fixa o carrossel no fundo da tela */
+        bottom: 0; /* Move o carrossel para o fundo */
+        left: 0;
+        width: 100%; /* Garante que ocupe toda a largura */
+        padding: 10px; /* Adiciona um leve padding para visualização */
+        display: flex;
+        justify-content: center; /* Centraliza o carrossel */
+    }
+
+    .titulo-carousel {
+        font-size: 18px; /* Reduz o tamanho do texto */
+    }
+
+    .botao-som {
+        width: 40px; 
+        height: 40px; /* Ajusta o tamanho do botão de som */
+        top: 10px;
+        right: 10px;
+    }
+
+    .modal-conteudo {
+        width: 90%; /* Aumenta a responsividade do modal */
+        max-width: 320px;
+        padding: 15px;
+    }
+
+    .modal {
+        padding-top: 10px;
+    }
+}

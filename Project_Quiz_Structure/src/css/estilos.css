@@ -1,0 +1,177 @@
+/* 1  */
+body {
+    background-color: #1a1a1a;
+    color: #00ff66;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* 2  */
+header {
+    padding: 2rem;
+    background-color: #33334d;
+    text-align: center;
+}
+
+/* 3  */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* 4  */
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* 5  */
+h2 {
+    color: #ff6699;
+    font-size: 1.2rem;
+}
+
+/* 6  */
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #ffcc00;
+}
+
+/* 7  */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #00ff66;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #00ff66;
+}
+
+/* 8  */
+input::placeholder {
+    color: #99ffcc;
+}
+
+/* 9  */
+select {
+    cursor: pointer;
+    background-color: #1a1a1a;
+    color: #ff6699;
+    border-radius: 5px;
+    border: 2px solid #00ff66;
+}
+
+/* 10  */
+img {
+    width: 5rem;
+    border-radius: 5px;
+}
+
+/* 11  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 12  */
+th {
+    background-color: #33334d;
+    color: #ffcc00;
+    padding: 1rem;
+    border: 2px solid #00ff66;
+}
+
+/* 13  */
+td {
+    color: #ff6699;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #00ff66;
+}
+
+/* 14  */
+tfoot td {
+    background-color: #1a1a1a;
+    color: #ffcc00;
+}
+
+/* 15  */
+details {
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 2px solid #ffcc00;
+}
+
+/* 16  */
+summary {
+    color: #ff6699;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+/* 17  */
+ol {
+    margin-left: 1.5rem;
+}
+
+/* 18  */
+ol li {
+    padding: 0.2rem;
+}
+
+/* 19  */
+fieldset {
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* 20  */
+legend {
+    color: #ffcc00;
+    padding: 0 0.5rem;
+}
+
+/* 21  */
+textarea {
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    border: 2px solid #00ff66;
+    color: #00ff66;
+}
+
+/* 22  */
+button {
+    background-color: #ffcc00;
+    padding: 0.8rem;
+    color: #1a1a1a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 23  */
+footer {
+    background-color: #33334d;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* 24  */
+.paragrafo-footer {
+    color: #ffcc00;
+}
+
+/* 25  */
+footer a {
+    text-decoration: none;
+    color: #ff6699;
+}

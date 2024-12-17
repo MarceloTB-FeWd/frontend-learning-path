@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pesquisa pelo clima em tempo real"> 
+    <meta name="author" content="Marcelo Torres Borges">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <title>Clima Agora</title>
+
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="busca">
+            <input id="inp-busca" type="text" placeholder="Digite aqui o local">
+            <button class="btn-busca">
+                <i class='bx bx-search'></i>
+            </button>
+        </div>
+
+        <div class="info-principal">
+            <h1 id="cidade">Pesquise para ter o retorno dos dados climáticos</h1>
+            <p class="temperatura" id="temperatura"></p>
+
+            <img id="icone-condicao" src="https://cdn.weatherapi.com/weather/64x64/day/116.png"
+                alt="ícone Parcialmente Nublado">
+            <p class="condicao" id="condicao"></p>
+        </div>
+
+        <div class="info-secundaria">
+            <div class="umidade">
+                <span>Umidade do ar</span>
+                <span id="umidade">--</span>
+            </div>
+
+            <dir class="velocidade-do-vento">
+                <span>Velocidade do Vento</span>
+                <span id="velocidade-do-vento">--</span>
+            </dir>
+        </div>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+
+</body>
+
+</html>

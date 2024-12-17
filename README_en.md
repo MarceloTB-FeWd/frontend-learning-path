@@ -37,13 +37,14 @@ These projects range from static pages to more interactive layouts, reflecting a
 
 ## Repository Folder Structure
 ```
-frontend-learning-path/       #  Main Repository
-├── Recepi_Page/              # Main project folder
-├── 
-├──
-├──
-├──
-
+frontend-learning-path/                   # Main Repository
+├── Paleolithic_Creatures/                # Main project folder
+├── Cloneflix/                            # Main project folder
+├── Currency_Converter/                   # Main project folder
+├── Quiz_Structure/                       # Main project folder
+├── Search_Interface_for_Weather_Data/    # Main project folder
+├── Bouncing_Ball_Animation/              # Main project folder
+├── Recepi_Page/                          # Main project folder
 │              
 └── README.md             
 └── README_en.md
@@ -65,6 +66,12 @@ frontend-learning-path/       #  Main Repository
 
 | Project                  | Status        | Link                                                    |
 |--------------------------|---------------|---------------------------------------------------------|
+| Paleolithic_Creatures              | 🟢 Completed  | [Paleolithic_Creatures](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Paleolithic_Creatures/) |
+| Cloneflix              | 🟢 Completed  | [Cloneflix](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Cloneflix/) |
+| Currency_Converter              | 🟢 Completed  | [Currency_Converter](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Currency_Converter/) |
+| Quiz_Structure              | 🟢 Completed  | [Quiz_Structure](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Quiz_Structure/) |
+| Search_Interface_for_Weather_Data              | 🟢 Completed  | [Search_Interface_for_Weather_Data](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Search_Interface_for_Weather_Data/) |
+| Bouncing_Ball_Animation              | 🟢 Completed  | [Bouncing_Ball_Animation](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Bouncing_Ball_Animation/) |
 | Recipe Page              | 🟢 Completed  | [Recipe Page](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Recipe_Page/) |
 
 ---

@@ -1,0 +1,14 @@
+Objetivos: 
+
+1° Objetivo:
+
+Através do ícone de som, criar um botão para entender um comando de
+"click" que será responsável por ligar e também desligar a música do vídeo.
+Pois por padrão no navegador chrome, quando é colocado um vídeo (no meu caso, extensão ".mp4"),
+o navegador não permite tocar a música. Para tanto, duas funções devem ser criadas,
+uma para ligar o som ao "click" e outra para desligar o som a um novo "click".
+E os ícones também irão modificar, quando o som estiver ligado e desligado.
+
+2° Objetivo: 
+
+Mostra e esconder o Modal que foi criado a partir do link: "Mais Informações".

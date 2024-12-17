@@ -1,0 +1,144 @@
+@media (max-width: 600px) {
+
+    body {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        height: auto;
+        box-shadow: 0 2px 5px rgba(0, 255, 0, 0.3);
+    }
+
+    .titulopag {
+        font-size: 1.2em;
+        padding: 5px 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: center;
+        padding: 5px 0;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .nav-link {
+        font-size: 1em;
+        padding: 5px 15px;
+    }
+
+    .nav-link:hover {
+        transform: scale(1.05);
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .modal-content {
+        width: 90%;
+        max-width: 400px;
+        padding: 15px;
+        border: 2px solid #00FF00;
+        box-shadow: 0 0 10px #00FF00;
+        border-radius: 5px;
+        background-color: #000;
+        color: #00FF00;
+        text-align: center;
+    }
+
+    .close {
+        top: 10px;
+        right: 15px;
+        font-size: 1.2em;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #FF0000;
+    }
+
+    main {
+        padding: 20px 10px;
+        min-height: calc(100vh - 170px);
+    }
+
+    .animation-container {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .ball {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 10px;
+
+        .paragrafo {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .contact-list {
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .contact-item {
+            margin: 0;
+        }
+
+        .contact-item i {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+
+        .rodape .links {
+            font-size: 0.9em;
+            margin: 2px 0;
+        }
+
+        .rodape-links:hover {
+            transform: scale(1.1);
+        }
+
+        .rodape .icon i {
+            font-size: 1.2em;
+            margin: 0 3px;
+        }
+
+        .rodape .icon i:hover {
+            transform: scale(1.1);
+        }
+
+        .paragraforodape {
+            font-size: 0.5em;
+            margin-top: 5px;
+        }
+    }
+}

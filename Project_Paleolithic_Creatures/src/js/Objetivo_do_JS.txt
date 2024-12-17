@@ -1,0 +1,10 @@
+OBJETIVO - Quando clicar na criatura da listagem tem que esconder o cartão da criatura aberto 
+   e mostrar o cartão correspondente ao que foi selecionado na listagem
+
+       PASSO 1 - Precisa criar uma variável no JS para trabalhar com a listagem das criaturas;
+       PASSO 2 - Identificar o evento de clique no elemento da listagem;
+       PASSO 3 - Remover a classe aberto só do cartão que está aberto;
+       PASSO 4 - Ao clicar em uma criatura da lista, pega o id dessa criatura para saber qual 
+    cartão abrir;
+       PASSO 5 - Remover a classe ativo que marca a criatura selecionada na listagem;
+       PASSO 6 - Adicionar a classe ativo na criatura selecionada na listagem.

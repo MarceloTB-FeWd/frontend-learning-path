@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marcelo Torres Borges">
+    <meta name="description"
+        content="Projeto de animação Bouncing Ball desenvolvido em JavaScript. Explore conceitos básicos de lógica de programação e desenvolvimento web para iniciantes.">
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <title>Animação Bouncing Ball | Projeto para Iniciantes</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulopag">Bouncing ball</h1>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="open-sobre">Sobre</a>
+                    <div id="modal-sobre" class="modal" role="dialog" aria-label="Sobre o Projeto" aria-modal="true">
+                        <div class="modal-content">
+                            <span class="close" id="close-sobre" aria-label="Fechar">&times;</span>
+                            <p>Este projeto de animação: Bouncing Ball foi desenvolvido como parte dos meus estudos
+                                sobre conceitos básicos de lógica de programação aplicada ao desenvolvimento web.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="open-funcionalidade">Funcionalidade</a>
+                    <div id="modal-funcionalidade" class="modal" role="dialog" aria-label="Funcionalidade"
+                        aria-modal="true">
+                        <div class="modal-content">
+                            <span class="close" id="close-funcionalidade" aria-label="Fechar">&times;</span>
+                            <p>A bola percorre o retângulo, no qual a cada colisão com um dos lados a mesma modifica sua
+                                tragetória e velocidade. Controlado via JavaScript.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="animation-container">
+                <div class="ball" id="ball"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div>
+            <p class="paragrafo">Contatos:</p>
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <i class='bx bxl-github' aria-hidden="true"></i>
+                    <a href="https://github.com/MarceloTB-FeWd" class="links" target="_blank">Github</a>
+                </li>
+                <li class="contact-item">
+                    <i class='bx bxl-linkedin-square' aria-hidden="true"></i>
+                    <a href="https://www.linkedin.com/in/marcelo-torres-borges-61a527212/" class="links"
+                        target="_blank">Linkedin</a>
+                </li>
+            </ul>
+        </div>
+        <p class="paragraforodape">&copy; 2024, Marcelo Torres Borges. "Todos os direitos reservados" (apenas para
+            teste).</p>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+
+</body>
+
+</html>
