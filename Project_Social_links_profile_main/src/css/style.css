@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 60px;
+}
+
+main {
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 12%);
+    border: 1px solid hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+}
+
+.container-first {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.photo {
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+
+.first-p {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.second-p {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.link {
+    background-color: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 15px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}

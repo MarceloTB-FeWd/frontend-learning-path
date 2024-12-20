@@ -45,6 +45,7 @@ frontend-learning-path/                   # Repositório
 ├── Search_Interface_for_Weather_Data/    # Pasta Principal do projeto
 ├── Bouncing_Ball_Animation/              # Pasta Principal do projeto
 ├── Recepi_Page/                          # Pasta Principal do projeto
+├── Social_links_profile_main/            # Pasta Principal do projeto
 │              
 └── README.md             
 └── README_en.md
@@ -66,13 +67,14 @@ frontend-learning-path/                   # Repositório
 
 | Projeto                  | Status        | Link                                                    |
 |--------------------------|---------------|---------------------------------------------------------|
-| Paleolithic_Creatures              | 🟢 Concluído  | [Paleolithic_Creatures](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Paleolithic_Creatures/) |
+| Paleolithic Creatures              | 🟢 Concluído  | [Paleolithic_Creatures](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Paleolithic_Creatures/) |
 | Cloneflix              | 🟢 Concluído  | [Cloneflix](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Cloneflix/) |
-| Currency_Converter              | 🟢 Concluído  | [Currency_Converter](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Currency_Converter/) |
-| Quiz_Structure              | 🟢 Concluído  | [Quiz_Structure](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Quiz_Structure/) |
-| Search_Interface_for_Weather_Data              | 🟢 Concluído  | [Search_Interface_for_Weather_Data](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Search_Interface_for_Weather_Data/) |
-| Bouncing_Ball_Animation              | 🟢 Concluído  | [Bouncing_Ball_Animation](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Bouncing_Ball_Animation/) |
-| Recipe Page              | 🟢 Concluído  | [Recipe-Page](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Recipe_Page/) |
+| Currency Converter              | 🟢 Concluído  | [Currency_Converter](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Currency_Converter/) |
+| Quiz Structure              | 🟢 Concluído  | [Quiz_Structure](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Quiz_Structure/) |
+| Search Interface for Weather Data              | 🟢 Concluído  | [Search_Interface_for_Weather_Data](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Search_Interface_for_Weather_Data/) |
+| Bouncing Ball Animation              | 🟢 Concluído  | [Bouncing_Ball_Animation](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Bouncing_Ball_Animation/) |
+| Recipe Page              | 🟢 Concluído  | [Recipe_Page](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Recipe_Page/) |
+| Social links profile main              | 🟢 Concluído  | [Social_links_profile_main](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Social_links_profile_main/) |
 
 ---
 
