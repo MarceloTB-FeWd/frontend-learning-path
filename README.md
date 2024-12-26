@@ -42,6 +42,7 @@ frontend-learning-path/                   # Repositório
 ├── Cloneflix/                            # Pasta Principal do projeto
 ├── Currency_Converter/                   # Pasta Principal do projeto
 ├── Quiz_Structure/                       # Pasta Principal do projeto
+├── Login_Register_Interface/             # Pasta Principal do projeto
 ├── Search_Interface_for_Weather_Data/    # Pasta Principal do projeto
 ├── Bouncing_Ball_Animation/              # Pasta Principal do projeto
 ├── Recepi_Page/                          # Pasta Principal do projeto
@@ -71,6 +72,7 @@ frontend-learning-path/                   # Repositório
 | Cloneflix              | 🟢 Concluído  | [Cloneflix](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Cloneflix/) |
 | Currency Converter              | 🟢 Concluído  | [Currency_Converter](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Currency_Converter/) |
 | Quiz Structure              | 🟢 Concluído  | [Quiz_Structure](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Quiz_Structure/) |
+| Login Resgister Interface              | 🟢 Concluído  | [Login_Resgister_Interface](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Login_Resgister_Interface/) |
 | Search Interface for Weather Data              | 🟢 Concluído  | [Search_Interface_for_Weather_Data](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Search_Interface_for_Weather_Data/) |
 | Bouncing Ball Animation              | 🟢 Concluído  | [Bouncing_Ball_Animation](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Bouncing_Ball_Animation/) |
 | Recipe Page              | 🟢 Concluído  | [Recipe_Page](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Recipe_Page/) |

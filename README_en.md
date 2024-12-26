@@ -42,6 +42,7 @@ frontend-learning-path/                   # Main Repository
 ├── Cloneflix/                            # Main project folder
 ├── Currency_Converter/                   # Main project folder
 ├── Quiz_Structure/                       # Main project folder
+├── Login_Register_Interface/             # Main project folder
 ├── Search_Interface_for_Weather_Data/    # Main project folder
 ├── Bouncing_Ball_Animation/              # Main project folder
 ├── Recepi_Page/                          # Main project folder
@@ -71,6 +72,7 @@ frontend-learning-path/                   # Main Repository
 | Cloneflix              | 🟢 Completed  | [Cloneflix](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Cloneflix/) |
 | Currency Converter              | 🟢 Completed  | [Currency_Converter](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Currency_Converter/) |
 | Quiz Structure              | 🟢 Completed  | [Quiz_Structure](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Quiz_Structure/) |
+| Login Resgister Interface              | 🟢 Completed  | [Login_Resgister_Interface](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Login_Resgister_Interface/) |
 | Search Interface for Weather Data              | 🟢 Completed  | [Search_Interface_for_Weather_Data](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Search_Interface_for_Weather_Data/) |
 | Bouncing Ball Animation              | 🟢 Completed  | [Bouncing_Ball_Animation](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Bouncing_Ball_Animation/) |
 | Recipe Page              | 🟢 Completed  | [Recipe_Page](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Recipe_Page/) |
