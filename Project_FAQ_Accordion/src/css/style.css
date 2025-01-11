@@ -1,0 +1,121 @@
+body {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: url(../assets/images/background-pattern-desktop.svg) no-repeat top center, hsl(275, 100%, 97%) no-repeat bottom center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    margin: auto;
+    height: 100vh;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(292, 42%, 14%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.container-title-svg {
+    font-size: 28px;
+    display: flex;
+    padding: 20px;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.faq-items {
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.faq-question:hover {
+    color: #AD28EB;
+}
+
+.faq-answer {
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+    padding: 10px 15px;
+    display: none;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 30px;
+    height: 31px;
+    fill: none;
+    background-color: #AD28EB;
+    border-radius: 60px;
+    color: white;
+    padding: 10px;
+}
+
+.faq-question.active .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 30px;
+    height: 31px;
+    fill: none;
+    background-color: #301534;
+    border-radius: 60px;
+    color: white;
+    padding: 10px;
+}
+
+.container-footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.p-footer {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: hsl(292, 16%, 49%);
+    font-weight: bold;
+}
+
+a:hover {
+    color: hsl(292, 42%, 14%);
+}

@@ -47,6 +47,7 @@ frontend-learning-path/                   # Repositório
 ├── Bouncing_Ball_Animation/              # Pasta Principal do projeto
 ├── Recepi_Page/                          # Pasta Principal do projeto
 ├── Social_links_profile_main/            # Pasta Principal do projeto
+├── FAQ_Accordion/                        # Pasta Principal do projeto 
 │              
 └── README.md             
 └── README_en.md
@@ -77,6 +78,7 @@ frontend-learning-path/                   # Repositório
 | Bouncing Ball Animation              | 🟢 Concluído  | [Bouncing_Ball_Animation](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Bouncing_Ball_Animation/) |
 | Recipe Page              | 🟢 Concluído  | [Recipe_Page](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Recipe_Page/) |
 | Social links profile main              | 🟢 Concluído  | [Social_links_profile_main](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Social_links_profile_main/) |
+| FAQ Accordion              | 🟢 Concluído  | [FAQ_Accordion](https://marcelotb-fewd.github.io/frontend-learning-path/Project_FAQ_Accordion/) |
 
 ---
 

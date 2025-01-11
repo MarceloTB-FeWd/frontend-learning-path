@@ -46,7 +46,8 @@ frontend-learning-path/                   # Main Repository
 ├── Search_Interface_for_Weather_Data/    # Main project folder
 ├── Bouncing_Ball_Animation/              # Main project folder
 ├── Recepi_Page/                          # Main project folder
-├── Social_links_profile_main/            # Main project folder                                                    
+├── Social_links_profile_main/            # Main project folder
+├── FAQ_Accordion/                        # Main project folder                                                    
 │              
 └── README.md             
 └── README_en.md
@@ -77,6 +78,7 @@ frontend-learning-path/                   # Main Repository
 | Bouncing Ball Animation              | 🟢 Completed  | [Bouncing_Ball_Animation](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Bouncing_Ball_Animation/) |
 | Recipe Page              | 🟢 Completed  | [Recipe_Page](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Recipe_Page/) |
  Social links profile main              | 🟢 Completed  | [Social_links_profile_main](https://marcelotb-fewd.github.io/frontend-learning-path/Project_Social_links_profile_main/) |
+ | FAQ Accordion              | 🟢 Completed  | [FAQ_Accordion](https://marcelotb-fewd.github.io/frontend-learning-path/Project_FAQ_Accordion/) |
 
 ---
 
